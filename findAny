@@ -1,0 +1,4 @@
+  int any = numbers.stream()
+                .findAny()
+                .orElse(-1);
+        System.out.println("Any: " + any);
