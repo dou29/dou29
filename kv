@@ -1,0 +1,12 @@
+template <class K, class V>
+	struct HashNode
+	{
+		HashNode<K, V>* _next;
+		pair<K, V> _kv;
+		HashNode(const pair<K, V>& kv)
+			:_kv(kv)
+			, _next(nullptr)
+		{
+ 
+		}
+	};
